@@ -1,23 +1,40 @@
-Advanced Auth Backend🔒
+Advanced Auth Backend 🔒
 
-•Implemented secure authentication using JWT (JSON Web Tokens) and HTTP-only cookies 
-•Built a complete email verification system using OTP to validate users during registration
-•Automated welcome emails sent after successful account verification to enhance user experience.
-•Developed a password reset functionality via email, allowing users to securely recover accounts 
-• Made by React.js , Nodejs , Mongodb , JWT , Mailtrap
+• Secure authentication implemented using JWT (JSON Web Tokens) and HTTP-only cookies
 
-Setup .env file
+• Complete email verification system built using OTP for user validation during registration
+
+• Automated welcome emails sent after successful account verification to improve user experience
+
+• Secure password reset functionality via email for account recovery
+
+• Built using React.js, Node.js, MongoDB, JWT, and Mailtrap
+
+
+Environment Variables Setup (.env file)
+
 PORT=**********
-MONGODB_URL=****** 
+
+MONGODB_URL=******
+
 JWT_SECRET=*******
-NODE_ENV=production/development
+
+NODE_ENV=production / development
+
 MAIL_TRAP_API=******
+
 CLIENT_URL=******
 
-Run this app locally
+
+Run the application locally
+
 npm run build
 
-Start the app
+
+Start the application
+
 npm run start
 
+
 I'll see you in the next one! 🚀
+
